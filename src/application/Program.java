@@ -13,7 +13,7 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner scan = new Scanner(System.in);
 		Display display = new RegularDisplay(50,1,10);
-		display.showText("Que legal mano akakkaka", 3.0, 10);
+		display.showText("a", 3.0, 10);
 		scan.close();
 	}
 }
